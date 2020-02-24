@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bare.min.css">
+    <title>dontBareCSS</title>
+</head>
+<body>
+    <!-- Not fixed -->
+    <nav fx>
+        <label>
+            <input type="checkbox">
+            <header>
+                <a><img src="https://opensource.org/files/osi_standard_logo_0.png">Fixed</a>
+            </header>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li>
+                    <a>Dropdown</a>
+                    <menu>
+                        <menuitem><a href="#">Item one</a></menuitem>
+                        <menuitem><a href="#">Item two</a></menuitem>
+                    </menu>
+                </li>
+            </ul>
+        </label>
+    </nav>
+    <br><br>
+    <nav>
+        <label>
+            <input type="checkbox">
+            <header>
+                <a><img src="https://opensource.org/files/osi_standard_logo_0.png"> Not Fixed</a>
+            </header>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li>
+                    <a>Dropdown</a>
+                    <menu>
+                        <menuitem><a href="#">Item one</a></menuitem>
+                        <menuitem><a href="#">Item two</a></menuitem>
+                    </menu>
+                </li>
+            </ul>
+        </label>
+    </nav>
+    <section>
+        <h1>Section Start</h1>
+        <h2>Buttons</h2>
+        <button>Normal Button</button>
+        <button primary>Primary Button</button>
+        <button disabled>Disabled Button</button>
+        <a href="#">Anchor Tag</a>
+        <a href="#" btn>Anchor Tag Button</a>
+        <a href="#" btn primary>Anchor Tag Button Primary</a>
+        <input type="submit" value="Submit Button Input">
+        <button m-full>Full Width Button</button>
+        <button m-full primary>Full Width Button Primary</button>
+        <button m-full disabled>Full Width Button Disabled</button>
+        <button round>Rounded Button</button>
+        <button round primary>Rounded Button Primary</button>
+        <button round disabled>Rounded Button Disabled</button>
+        <button tt="Here's a tip">Button with Tooltip</button>
+        <h2>Tags</h2>
+        <tag>Tag</tag>
+        <tag tt="Here's a tip">Tag with tooltip</tag>
+        <p>You can have tt for enabled button and dtt for the same button when disabled</p>
+    </section>
+</body>
+</html>
